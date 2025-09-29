@@ -18,7 +18,6 @@ class SignupScreen(MDScreen):
         if password != confirm_password:
             toast("Passwords do not match")
             return
-        
 
         if not username or not email or not password:
             toast("Please fill in all fields")
