@@ -38,6 +38,8 @@ Install all dependencies with:
 
 pip install -r requirements.txt
 
+
+Screenshot
 ![App Screenshot](https://github.com/user-attachments/assets/626625e5-ca45-407a-8a65-083e058a9942)
 
 
