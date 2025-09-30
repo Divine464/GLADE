@@ -21,9 +21,6 @@ kv_lo= """
         orientation: "vertical"
         spacing: "20dp"
         padding: "24dp"
-        # pos_hint: {"center_y":0.5}
-        # size_hint_y: None
-        # height: self.minimum_height
 
         MDIconButton:
             icon: "arrow-left"
@@ -54,18 +51,18 @@ kv_lo= """
             icon: "facebook"
             on_release:
                 root.show_toast("Not available yet")
+                
         MDRectangleFlatIconButton:
             pos_hint: {"center_x":0.5}
             size_hint: 0.82, 0.07
-
             text: "Continue with Apple"
             icon: "apple"
             on_release:
                 root.show_toast("Not available yet")
+                
         MDRectangleFlatIconButton:
             pos_hint: {"center_x":0.5}
             size_hint: 0.82, 0.07
-
             text: "Continue with Email"
             icon: "email"
             on_release:
