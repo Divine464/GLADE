@@ -1,5 +1,5 @@
 
-# from google import genai
+
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton
 from kivymd.uix.label import MDLabel
@@ -79,7 +79,7 @@ class IncomeRecordsScreen(MDScreen):
         super().__init__(**kwargs)
         self.username = None
         self.dialog = None
-        # self.confirm_dialog = None
+        
 
     def set_username(self, username):
         self.username = username
@@ -135,7 +135,6 @@ class IncomeRecordsScreen(MDScreen):
 
 
     def confirm_delete(self, income_id):
-        # if not self.dialog:
         dialog = MDDialog(
             title = "Confirm Deletion",
             text = f"Are you sure you want to delete this income record?",
