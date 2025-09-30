@@ -5,6 +5,7 @@ from kivymd.uix.screen import MDScreen
 from kivymd.toast import toast
 
 
+
 class ForgotPasswordScreen(MDScreen):
     def reset_password(self):
         username = self.ids.username.text.strip()
