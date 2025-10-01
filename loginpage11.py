@@ -1,5 +1,6 @@
 
-from kivy.uix.screenmanager import SlideTransition, FadeTransition, SwapTransition, WipeTransition
+
+from kivy.uix.screenmanager import WipeTransition
 from kivymd.app import MDApp
 import sqlite3
 from kivymd.app import MDApp
