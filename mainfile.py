@@ -1,5 +1,4 @@
 
-
 from kivy.properties import StringProperty
 from databasemd11 import init_db
 from kivymd.app import MDApp
