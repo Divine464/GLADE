@@ -162,9 +162,9 @@ class IncomeRecordsScreen(MDScreen):
             self.dialog.dismiss()
 
         content = (
-        f" Date: {username}\n"
+        f" Date: {date}\n"
         f"\n"
-        f" Amount: \u20A6{date}"
+        f" Amount: \u20A6{amount}"
         )
         
         self.dialog = MDDialog(
