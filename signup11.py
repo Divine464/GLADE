@@ -4,6 +4,7 @@ from kivymd.uix.screen import MDScreen
 from kivymd.toast import toast
 import re
 
+
 def is_valid_email(email):
     pattern = r"^[\w\.-]+@(gmail|yahoo)\.com$"
     return re.match(pattern, email) 
