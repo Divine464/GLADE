@@ -1,7 +1,6 @@
 
 import matplotlib.pyplot as plt
 from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
-# from matplotlib.backends.backend_kivyagg import FigureCanvasKivyAgg
 from kivy.uix.boxlayout import BoxLayout 
 from kivymd.uix.screen import MDScreen
 from kivymd.uix.label import MDLabel
