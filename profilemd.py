@@ -50,7 +50,6 @@ class ProfileScreen(MDScreen):
         
 
     def upload_picture(self):
-        print("Upload button clicked")
         content = BoxLayout(orientation = "vertical")
         filechooser = FileChooserListView(filters= ["*.png", "*.jpg", "*.jpeg"])
         content.add_widget(filechooser)
